@@ -1,7 +1,0 @@
-AuthUserFile "C:/xampp/htdocs/reservation/.htpasswd"
-AuthName "Password Protected Area"
-AuthType Basic
-
-<limit GET POST>
-require valid-user
-</limit>
